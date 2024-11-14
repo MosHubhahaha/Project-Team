@@ -18,7 +18,8 @@ body{
 }
 
 img{
-    width:50%;
+    width:200px;
+    height:200px;
 }
 
 .container{
@@ -46,6 +47,10 @@ img{
         font-size:18px;
     }
 
+    .input-filed:last-child{
+        margin-bottom:30px;
+    }
+
     .form-control i{
         position: absolute;
         font-size:16px;
@@ -53,6 +58,12 @@ img{
         margin-top: 3px;
         min-width:40px;
     }
+}
+
+.toregister{
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 
 .register{
@@ -64,7 +75,7 @@ img{
 }
 .head1{
     color: white;
-    font-size:35px;
+    font-size:2rem;
     margin-left:2.4rem;
     margin-top:12px;
 }
